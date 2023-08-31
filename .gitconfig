@@ -1,0 +1,22 @@
+[github]
+    user = leslie-qiwa
+[user]
+    name = Leslie Wang
+[apply]
+    whitespace = fix
+[rerere]
+    autoupdated = true
+    enabled = true
+[push]
+  default = simple
+[credential]
+  helper = store
+[core]
+	editor = vim
+[alias]
+	lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --graph --abbrev-commit
+  fu = fetch upstream main
+  ri = rebase -i upstream/main
+  r = rebase upstream/main
+[color]
+	ui = auto
